@@ -1,0 +1,69 @@
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: "Helvetica Neue";
+
+}
+
+.section-1,.section-2,.section-3,.section-4,.section-5{
+
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	background-attachment: fixed;
+	position: relative;
+}
+
+
+.caption{
+background-color: white;
+position: absolute; 
+top: 50%;
+left: 45%;
+text-align: center;
+font-size: 25px;
+
+
+}
+
+.caption-text{
+color: slateblue;
+font-size: 25px;
+font-weight: bold;
+padding: 15px;
+
+}
+
+.section-text{
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+font-weight: bold;
+color: slateblue;
+font-size: 25px;
+
+
+}
+
+.section-1{
+	background-image: url(../photos/window1.jpg);
+}
+
+.section-2{
+	background-image: url(../photos/window2.jpg);
+}
+
+.section-3{
+	background-image: url(../photos/window3.jpg);
+}
+
+.section-4{
+	background-image: url(../photos/window4.jpg);
+}
+
+.section-5{
+	background-image: url(../photos/window5.jpg);
+}
