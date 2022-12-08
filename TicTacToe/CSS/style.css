@@ -1,0 +1,121 @@
+
+body{
+	margin: 0;
+   background-color: black; 
+
+}
+hr{
+	width: 700px;
+	height: 3px;
+	background-color: white;
+}
+
+h1{
+	font-family: Helvtica;
+	text-align: center;
+	color: white;
+
+}
+
+.board{
+	width: 450px;
+	height: 450px;
+	background-color: black;
+	margin: 0;
+	display: inline-block;
+	flex-wrap: wrap;
+	gap: 10px;
+   margin-left: 36%;
+}
+
+
+ #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+    	background-color: black;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+        display: inline-grid;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 30px;
+        text-align: center;
+        grid-column-gap: 50px;
+        column-gap: 50px;
+        grid-gap: 50px;
+
+     }
+
+
+
+
+.tile{
+	width: 147px;
+	height: 147px;
+	display: flex;
+	font-size: 150px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+#blackBox1,#blackBox2,#blackBox3,#blackBox4,#blackBox5,#blackBox6,#blackBox7,#blackBox8,#blackBox9{
+	width: 120px;
+	height: 120px;
+	display: inline-flex;
+
+}
+
+#winImg{
+	display: none;
+	position: absolute;
+   width: 80%;
+   height: 80%;
+   left: 10%;
+   right: 10%;
+   margin: auto;
+   top: 0px;
+}
+
+#drawImg {
+
+   display: none;
+	position: absolute;
+   width: 80%;
+   height: 80%;
+   left: 10%;
+   right: 10%;
+   margin: auto;
+   top: 0px;
+}
+
+
+.horizontal-line{
+	border-bottom: 3px;
+	border-color: black;
+}
+
+.vertical-line{
+	border-bottom: 3px;
+	border-color: black;
+
+
+
+}
+
+#resetButton{
+   color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 46%;
+    margin-top: 10%;
+    cursor: pointer;
+    background-color: #FF3860;
+  
+
+}
+
+
+
