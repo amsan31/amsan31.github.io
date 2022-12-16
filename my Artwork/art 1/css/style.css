@@ -1,0 +1,30 @@
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+body{
+	background-color: #1e1e1e;
+}
+
+h1{
+	font-family: helvetica;
+	color: white;
+	text-align: center;
+}
+
+h4{
+	font-family: helvetica;
+		color: white;
+	
+}
+h3{
+	font-family: helvetica;
+	color: white;
+	text-align: center;
+}
+
+a{
+		font-family: helvetica;
+		color: white;
+		text-decoration: none;
+	
+}
